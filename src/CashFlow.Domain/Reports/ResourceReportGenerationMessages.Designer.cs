@@ -124,6 +124,15 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Expenses for.
+        /// </summary>
+        public static string EXPENSES_FOR {
+            get {
+                return ResourceManager.GetString("EXPENSES_FOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Payment Type.
         /// </summary>
         public static string PAYMENT_TYPE {

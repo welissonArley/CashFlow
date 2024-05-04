@@ -138,6 +138,9 @@
   <data name="ELETRONIC_TRANSFER" xml:space="preserve">
     <value>Eletronic Transfer</value>
   </data>
+  <data name="EXPENSES_FOR" xml:space="preserve">
+    <value>Expenses for</value>
+  </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
     <value>Payment Type</value>
   </data>
