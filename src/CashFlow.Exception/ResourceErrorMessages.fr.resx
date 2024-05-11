@@ -133,7 +133,7 @@
     <value>Dépenses non trouvées</value>
   </data>
   <data name="INVALID_PASSWORD" xml:space="preserve">
-    <value>Votre mot de passe doit comporter au moins 8 caractères et inclure au moins une lettre majuscule, une lettre minuscule et un chiffre.</value>
+    <value>Votre mot de passe doit comporter au minimum 8 caractères, dont au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (par exemple, !, ?, *, .).</value>
   </data>
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>Le nom ne peut pas être vide.</value>
