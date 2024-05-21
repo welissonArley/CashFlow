@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Bogus" Version="35.5.1" />
+    <PackageReference Include="Moq" Version="4.20.70" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\CashFlow.Application\CashFlow.Application.csproj" />
     <ProjectReference Include="..\..\src\CashFlow.Communication\CashFlow.Communication.csproj" />
   </ItemGroup>
 
