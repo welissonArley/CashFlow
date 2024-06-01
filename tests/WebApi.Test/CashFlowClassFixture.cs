@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-using System.Net.Http;
-using System.Net.Http.Headers;
+﻿using System.Net.Http.Headers;
 using System.Net.Http.Json;
 
 namespace WebApi.Test;
@@ -23,6 +21,17 @@ public class CashFlowClassFixture : IClassFixture<CustomWebApplicationFactory>
         ChangeRequestCulture(culture);
 
         return await _httpClient.PostAsJsonAsync(requestUri, request);
+    }
+
+    protected async Task<HttpResponseMessage> DoGet(
+        string requestUri,
+        string token,
+        string culture = "en")
+    {
+        AuthorizeRequest(token);
+        ChangeRequestCulture(culture);
+
+        return await _httpClient.GetAsync(requestUri);
     }
 
     private void AuthorizeRequest(string token)
