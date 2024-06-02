@@ -15,7 +15,7 @@ public class RegisterExpenseUseCaseTest
     public async Task Success()
     {
         var loggedUser = UserBuilder.Build();
-        var request = RequestRegisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         var useCase = CreateUseCase(loggedUser);
 
         var result = await useCase.Execute(request);
@@ -29,7 +29,7 @@ public class RegisterExpenseUseCaseTest
     {
         var loggedUser = UserBuilder.Build();
 
-        var request = RequestRegisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Title = string.Empty;
 
         var useCase = CreateUseCase(loggedUser);
