@@ -144,6 +144,9 @@
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>Le nom ne peut pas être vide.</value>
   </data>
+  <data name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+    <value>Le mot de passe saisi est différent du mot de passe actuel.</value>
+  </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>Le type de paiement n'est pas valide.</value>
   </data>
